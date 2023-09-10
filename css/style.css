@@ -157,6 +157,18 @@ address {
         line-height: 1.5;
         letter-spacing: 0.64px;
         cursor: pointer;
+        border: none;
+        display: inline-flex;
+            padding: 16px 32px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            min-width: 169px;
+            height: 56px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
     }
 
 .hero-button:hover{
@@ -167,6 +179,11 @@ address {
 }
 
 /*Section advantages*/
+.advantage-list {
+    display: flex;
+    gap: 24px;
+
+}
 
 .advantage-title {
     color: var(--NAVY-BLUE, #2E2F42);
