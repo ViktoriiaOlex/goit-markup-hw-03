@@ -229,8 +229,7 @@ address {
     align-items: center;*/
     background-color: var(--cloud, #F4F4FD);
     padding: 120px 0;
-    padding-left: 156px;
-    padding-right: 156px;
+   
     }
 
 .team-header {
@@ -273,10 +272,7 @@ address {
 }
 
 /*Section our portfolio*/
-.portfolio-inner {
-    padding-left: 156px;
-    padding-right: 156px;
-}
+
 .portfolio-list {
         display: flex;
         gap: 24px;
