@@ -319,6 +319,7 @@ address {
     display: flex;
     margin-bottom: 16px;
     display: inline-block;
+    color: var(--iris);
 }
 .accent-second {
     color: var(--cloud, #f4f4fd );
